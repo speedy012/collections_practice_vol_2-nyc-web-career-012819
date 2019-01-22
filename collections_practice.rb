@@ -5,6 +5,7 @@ def begind_with_r(arr)
     arr.all? do |string| 
     string[0] == "r"
   end
+end
 
 def contain_a(array)
 	array.find_all {|word| word.include?("a")}
