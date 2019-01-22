@@ -1,11 +1,10 @@
 # your code goes here
 array = ["ruby", "rspec", "sails"]
 
-def begind_with_r(array) 
- 
-  array.all? {|word| word.start_with?("r")}
- 
-end
+def begind_with_r(arr) 
+    arr.all? do |string| 
+    string[0] == "r"
+  end
 
 def contain_a(array)
 	array.find_all {|word| word.include?("a")}
