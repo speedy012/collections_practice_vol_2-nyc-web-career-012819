@@ -3,8 +3,8 @@ array = ["ruby", "rspec", "sails"]
 
 def begind_with_r(array) 
  
- if array.all? {|word| word.start_with?("r")}
- else
+  array.all? {|word| word.start_with?("r")}
+ 
 end
 
 def contain_a(array)
